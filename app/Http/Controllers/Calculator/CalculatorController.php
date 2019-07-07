@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Services\CalculatorService;
 use Illuminate\Support\Facades\App;
-//use App\Calculator\Addition;
 
 
 class CalculatorController extends Controller

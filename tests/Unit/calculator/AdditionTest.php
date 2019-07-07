@@ -15,4 +15,6 @@ class AdditionTest extends TestCase
 
         $this->assertEquals(2, $addition->calculate());
     }
+    
+    //@todo more test
 }
