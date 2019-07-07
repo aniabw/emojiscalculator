@@ -28,7 +28,7 @@ function showResult()
     $( '#error' ).html('');
     
     $.ajax({
-        url: '/laravel/emojiscalculator/public/api/result',
+        url: '/api/result',
         type: 'post',
         dataType: 'json',
         data: jsonData,
